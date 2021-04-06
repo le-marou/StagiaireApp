@@ -1,0 +1,273 @@
+
+.ccontainer {
+    width: 100vw ;
+    height: 100vh ;
+    overflow: hidden ;
+    position: relative;
+    background-color: #fff;
+}
+
+img{
+    position: absolute ;
+}
+
+.bg1 , .bg3{
+    width: 30rem ;
+    height: 30rem ;
+    right: -5rem ;
+    top: -1rem ;
+}
+
+
+.bg2 {
+    width: 40rem ;
+    height: 40rem ;
+    left: -7rem ;
+    bottom: -8rem ;
+}
+.bg4 {
+    width: 40rem ;
+    height: 40rem ;
+    left: -7rem ;
+    bottom: -7rem ;
+}
+.bg6 {
+    width: 25rem ;
+    height: 25rem ;
+    right:35rem ;
+    bottom: 0rem ;
+    margin-bottom: 10rem ;
+}
+.cercle1{
+    width: 28rem ;
+    height: 28rem ;
+    right: 19rem ;
+    bottom: -10rem ;
+}
+
+.cercle2{
+    width: 11rem ;
+    height: 11rem ;
+    right: 23rem ;
+    top: 5rem ;
+}
+
+.cercle3{
+    width: 11rem ;
+    height: 11rem ;
+    left: -5rem ;
+    top: -2rem ;
+}
+
+.form-block{
+    position: absolute ;
+    width: 24rem ;
+    height: 28rem ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: space-between ;
+    background-color: rgba(255, 255, 255, 0.589) ;
+    box-shadow: 1px 1px 20px #00000028;
+    top: 50% ;
+    left: 50% ;
+    transform: translate(-50%, -50%) ;
+    border-radius: 1rem ;
+}
+
+.title{
+    margin-top: 1rem;
+    font-size: 22px;
+    font-family: 'Montserrat' ;
+    color: #6158e5 ;
+    font-weight:bold;
+}
+
+.form{
+    width: 100% ;
+    height: 75% ;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: flex-start ;
+}
+
+.username-block,
+.password-block{
+    width: 75% ;
+    display: flex ;
+    justify-content: space-around ;
+    align-items: center ;
+    box-shadow: 1px 1px 20px #00000028 ;
+    border-radius: .5rem ;
+    margin: 10px 0 ;
+    padding: 0 8px ;
+    background-color: #fff ;
+    
+}
+
+.username-block input,
+.password-block input{
+    border: none ;
+    outline: none ;
+    width: 80% ;
+    padding: 15px 0 ;
+    color: #999 ;
+    font-family: 'Montserrat' ;
+    font-size: 16px ;
+    background-color: transparent ;
+}
+
+.username-block i,
+.password-block i{
+    color: #999 ;
+    font-size: 16px ;
+}
+
+.checkbox-linkForget{
+    width: 75% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    margin: 5px 0 ;
+}
+
+.checkbox-block{
+    display: flex ;
+    align-items: center ;
+}
+
+.checkbox-block input{
+    margin-right: 5px ;
+}
+
+.checkbox-text,
+.link-forget{
+    font-size: 11px ;
+    font-family: 'Open Sans' ;
+}
+.demande {
+    text-decoration: none ;
+    padding: 15px 0 ;
+    width: 50% ;
+    border-radius: .5rem ;
+    border: 2px solid #6158e5 ;
+    margin-top: 0.5rem ;
+    color: #fff ;
+    background-color: #6158e5;
+    box-shadow: 1px 5px 15px #6158e5 ;
+    font-family: 'Montserrat' ;
+    font-size: 16px ;
+    font-weight: 600 ;
+    cursor: pointer ;
+    transition: all ease-in-out .3s ;
+    text-align: center ;
+}
+.demande:hover{
+    color: #6158e5 ;
+    background-color: rgba(255, 255, 255, 0.589) ;
+}
+.button{
+    padding: 15px 0 ;
+    width: 50% ;
+    border-radius: .5rem ;
+    border: 2px solid #6158e5 ;
+    margin-top: 2rem ;
+    color: #fff ;
+    background-color: #6158e5 ;
+    box-shadow: 1px 5px 15px #6158e5 ;
+    font-family: 'Montserrat' ;
+    font-size: 16px ;
+    font-weight: 600 ;
+    cursor: pointer ;
+    transition: all ease-in-out .3s ;
+}
+
+.button:hover{
+    color: #6158e5 ;
+    background-color: rgba(255, 255, 255, 0.589) ;
+}
+
+/* parti de demande*/
+ .dorm{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+} 
+.form-dlock{
+    position: absolute;
+    width: 44rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.589);
+    box-shadow: 1px 1px 20px #00000028;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+}
+.reset{
+    
+    padding: 15px 0;
+    width: 50%;
+    border-radius: .5rem;
+    border: 2px solid #e55858;
+    margin-top: 0.77rem;
+    color: #fff;
+    background-color: #e55858;
+    box-shadow: 1px 5px 15px #e55858;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+.reset:hover{
+    color: #e55858;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.te{
+    text-align: center;
+}
+.t{
+    margin-left: 26rem;
+    padding: 2px 0 ;
+    width: 50% ;
+    border-radius: .5rem ;
+    border: 2px solid #e58c58;
+    color: #fff ;
+    background-color: #e58c58 ;
+    
+    font-family: 'Montserrat' ;
+    cursor: pointer ;
+   
+    
+
+}
+/* parti de demande de stage */
+.App {
+    text-align: center;
+
+}
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+}
+.center-stepper {
+    display: flex;
+    justify-content: center;
+}
+
+.table{
+    margin-top: 5rem;
+    max-width:70rem;
+    margin-left: 15rem;
+}
